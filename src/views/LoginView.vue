@@ -33,6 +33,14 @@
       Inicia Sesión con tu cuenta
     </v-card-subtitle>
 
+    <v-card-text
+      class="text-h5 text-center my-3 bg-blue-darken-1"
+    >
+      <p>CREDENCIALES</p>
+      <p class="mt-2">Usuario: correo@correo.com </p>
+      <p class="mt-2">Contraseña: password</p>
+    </v-card-text>
+
     <v-alert
       v-if="auth.hasError"
       class="my-5"
